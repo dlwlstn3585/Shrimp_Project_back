@@ -26,6 +26,6 @@ router.register(r'no_parking_zones', NoParkingZoneViewSet)
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api/', include(router.urls))
+    path('', include(router.urls))
 ]
 
